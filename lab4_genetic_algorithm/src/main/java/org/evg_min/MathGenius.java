@@ -4,8 +4,8 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class MathGenius  {
-    private final int minValue = -100;
-    private final int maxValue = 100;
+    private final int minValue = -300;
+    private final int maxValue = -minValue;
     private final int populationCount = 10;
     private final double chanceForGoodGeneration = 0.64;
     private final double chanceForBadGeneration = 0.72;
